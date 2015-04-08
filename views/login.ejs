@@ -1,0 +1,28 @@
+<% include header.ejs %>
+<div >
+	<form method="post">
+	<filedset>
+		<legend>用户登录</legend>
+		<%- message -%>
+		<div>
+			<label  for="username">用户名</label>
+			<div>
+				<input type="text" class="input-xlarge" id="username" name="username">
+			</div>
+		</div>
+		<div>
+			<label for="password">密码</label>
+			<div>
+				<input type="text" id="password" name="password">
+			</div>
+		</div>
+		<div>
+			<input type="submit" value="submit" >
+		</div>
+
+	</filedset>
+	</form>
+</div>	
+
+<% include footer.ejs %>
+    
